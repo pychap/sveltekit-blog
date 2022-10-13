@@ -26,6 +26,14 @@
       flex-direction: column;
       height: 100%;
     }
+
+    a {
+      text-decoration: none;
+      transition: 0.2s;
+      &:hover {
+        opacity: .6;
+      }
+    }
   }
 }
 
