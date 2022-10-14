@@ -3,12 +3,13 @@
 </script>
 
 <header>
-	<h1><a href="/" sveltekit:prefetch>{title}</a></h1>
+	<h1><a href="/" data-sveltekit-prefetch>{title}</a></h1>
 	<nav>
 		<ul>
-			<li><a href="/about" sveltekit:prefetch>About</a></li>
-			<li><a href="/blog" sveltekit:prefetch>Blog</a></li>
-			<li><a href="/blog/posts/" sveltekit:prefetch>Blog posts</a></li>
+			<li><a href="/about" data-sveltekit-prefetch>About</a></li>
+			<li><a href="/login" data-sveltekit-prefetch>Login</a></li>
+			<li><a href="/posts" data-sveltekit-prefetch>Posts</a></li>
+			<!-- <li><a href="/blog/posts/" data-sveltekit-prefetch>Blog posts</a></li> -->
 		</ul>
 	</nav>
 </header>
@@ -38,7 +39,7 @@
 
         a {
           text-decoration: none;
-          padding-right: 1rem;
+          padding: 0 1rem;
         }
       }
 		}
