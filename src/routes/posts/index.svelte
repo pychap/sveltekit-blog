@@ -1,0 +1,1 @@
+<h1>Index file, in the posts folder.</h1>
